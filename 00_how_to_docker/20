@@ -1,0 +1,4 @@
+# importer l'env de Char pour qu'il soit automatiquement set as manager
+# eval $(docker-machine env Char)
+# initaliser le swarm
+docker swarm init --advertise-addr `docker-machine ip Char`

@@ -1,0 +1,3 @@
+# recuperer la commande avec docker swarm join-token worker et l'exectuer dans Aiur
+
+docker swarm join --token <CHAR TOKEN> <IP CHAR>:2377
